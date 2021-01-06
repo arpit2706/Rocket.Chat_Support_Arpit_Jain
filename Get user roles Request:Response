@@ -1,0 +1,8 @@
+Request(get user roles) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/method.call/getUserRoles
+
+Response -> 
+
+{
+    "message": "{\"msg\":\"result\",\"id\":\"5\",\"result\":[{\"_id\":\"2Wp2auQdbTz2y2W2C\",\"roles\":[\"admin\"],\"username\":\"arpit.rocket\"},{\"_id\":\"JD34Qd7tDXQCT3asa\",\"username\":\"test45\",\"roles\":[\"admin\"]},{\"_id\":\"DKkAdxTwpWLHbEQB9\",\"username\":\"test46\",\"roles\":[\"admin\"]},{\"_id\":\"5GgAd32DEXKSyY7ig\",\"username\":\"test47\",\"roles\":[\"admin\"]}]}",
+    "success": true
+}

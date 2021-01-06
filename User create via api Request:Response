@@ -1,0 +1,37 @@
+Request(User create via api) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/users.create
+
+Response -> 
+
+{
+    "user": {
+        "_id": "5GgAd32DEXKSyY7ig",
+        "createdAt": "2021-01-06T04:25:34.453Z",
+        "username": "test47",
+        "emails": [
+            {
+                "address": "test47@gmail.com",
+                "verified": false
+            }
+        ],
+        "type": "user",
+        "status": "offline",
+        "active": true,
+        "_updatedAt": "2021-01-06T04:25:34.638Z",
+        "__rooms": [
+            "GENERAL"
+        ],
+        "roles": [
+            "admin"
+        ],
+        "name": "test",
+        "nickname": "test47",
+        "requirePasswordChange": false,
+        "settings": {}
+    },
+    "success": true
+}
+
+
+
+
+

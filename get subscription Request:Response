@@ -1,0 +1,7 @@
+Request(get subscription) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/method.call/subscriptions%3Aget
+
+Response -> 
+{
+    "message": "{\"msg\":\"result\",\"id\":\"20\",\"result\":{\"update\":[{\"_id\":\"GcLSYyv39s72n7dXw\",\"open\":true,\"alert\":false,\"unread\":0,\"userMentions\":0,\"groupMentions\":0,\"ts\":{\"$date\":1609906355711},\"rid\":\"GENERAL\",\"name\":\"general\",\"t\":\"c\",\"u\":{\"_id\":\"2Wp2auQdbTz2y2W2C\",\"username\":\"arpit.rocket\",\"name\":\"Arpit Jain\"},\"_updatedAt\":{\"$date\":1609907613276},\"ls\":{\"$date\":1609907613276}}],\"remove\":[]}}",
+    "success": true
+}

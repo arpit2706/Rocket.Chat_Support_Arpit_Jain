@@ -1,0 +1,8 @@
+Request(get room by type and name) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/method.call/getRoomByTypeAndName
+
+Response - >
+
+{
+    "message": "{\"msg\":\"result\",\"id\":\"9\",\"result\":{\"_id\":\"GENERAL\",\"name\":\"general\",\"t\":\"c\",\"lm\":{\"$date\":1609907613241},\"_updatedAt\":{\"$date\":1609907613278},\"default\":true,\"lastMessage\":{\"_id\":\"A9WtfSxbxCwPGXoar\",\"rid\":\"GENERAL\",\"msg\":\"hi\",\"ts\":{\"$date\":1609907613241},\"u\":{\"_id\":\"2Wp2auQdbTz2y2W2C\",\"username\":\"arpit.rocket\",\"name\":\"Arpit Jain\"},\"_updatedAt\":{\"$date\":1609907613272},\"mentions\":[],\"channels\":[]},\"usersCount\":4,\"usernames\":[]}}",
+    "success": true
+}

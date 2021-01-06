@@ -1,0 +1,88 @@
+Request (List of all users) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/users.list?fields={%22name%22:1,%22username%22:1,%22emails%22:1,%22roles%22:1,%22status%22:1,%22avatarETag%22:1,%22active%22:1}&query={%22$or%22:[{%22emails.address%22:{%22$regex%22:%22%22,%22$options%22:%22i%22}},{%22username%22:{%22$regex%22:%22%22,%22$options%22:%22i%22}},{%22name%22:{%22$regex%22:%22%22,%22$options%22:%22i%22}}]}&sort={%22name%22:1,%22usernames%22:1}&count=25
+
+
+Response -> 
+
+{
+    "users": [
+        {
+            "_id": "2Wp2auQdbTz2y2W2C",
+            "emails": [
+                {
+                    "address": "ajaj010@gmail.com",
+                    "verified": false
+                }
+            ],
+            "status": "online",
+            "active": true,
+            "roles": [
+                "admin"
+            ],
+            "name": "Arpit Jain",
+            "username": "arpit.rocket"
+        },
+        {
+            "_id": "rocket.cat",
+            "name": "Rocket.Cat",
+            "username": "rocket.cat",
+            "status": "online",
+            "active": true,
+            "roles": [
+                "bot"
+            ],
+            "avatarETag": null
+        },
+        {
+            "_id": "JD34Qd7tDXQCT3asa",
+            "username": "test45",
+            "emails": [
+                {
+                    "address": "test45@gmail.com",
+                    "verified": false
+                }
+            ],
+            "status": "offline",
+            "active": true,
+            "roles": [
+                "admin"
+            ],
+            "name": "test"
+        },
+        {
+            "_id": "DKkAdxTwpWLHbEQB9",
+            "username": "test46",
+            "emails": [
+                {
+                    "address": "test46@gmail.com",
+                    "verified": false
+                }
+            ],
+            "status": "offline",
+            "active": true,
+            "roles": [
+                "admin"
+            ],
+            "name": "test"
+        },
+        {
+            "_id": "5GgAd32DEXKSyY7ig",
+            "username": "test47",
+            "emails": [
+                {
+                    "address": "test47@gmail.com",
+                    "verified": false
+                }
+            ],
+            "status": "offline",
+            "active": true,
+            "roles": [
+                "admin"
+            ],
+            "name": "test"
+        }
+    ],
+    "count": 5,
+    "offset": 0,
+    "total": 5,
+    "success": true
+}
