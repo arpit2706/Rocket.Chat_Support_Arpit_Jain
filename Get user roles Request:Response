@@ -1,4 +1,12 @@
-Request(get user roles) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/method.call/getUserRoles
+Post Request(get user roles) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/method.call/getUserRoles
+
+Request Body -> 
+
+{
+    "message": "{\"msg\":\"method\",\"method\":\"getUserRoles\",\"params\":[],\"id\":\"5\"}"
+}
+
+
 
 Response -> 
 
