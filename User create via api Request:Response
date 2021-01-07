@@ -1,4 +1,26 @@
-Request(User create via api) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/users.create
+Post Request(User create via api) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/users.create
+
+Request body -> 
+{
+    "roles": [
+        "admin"
+    ],
+    "name": "test",
+    "username": "test47",
+    "statusText": "Active",
+    "bio": "",
+    "nickname": "test47",
+    "email": "test47@gmail.com",
+    "password": "Rocket@2021",
+    "verified": false,
+    "requirePasswordChange": false,
+    "setRandomPassword": false,
+    "sendWelcomeEmail": true,
+    "joinDefaultChannels": true,
+    "customFields": {}
+}
+
+
 
 Response -> 
 
