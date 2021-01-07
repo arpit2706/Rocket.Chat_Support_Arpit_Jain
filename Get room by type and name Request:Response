@@ -1,4 +1,9 @@
-Request(get room by type and name) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/method.call/getRoomByTypeAndName
+Post Request(get room by type and name) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/method.call/getRoomByTypeAndName
+
+Request body ->
+
+{"message":"{\"msg\":\"method\",\"method\":\"getRoomByTypeAndName\",\"params\":[\"c\",\"general\"],\"id\":\"9\"}"}
+
 
 Response - >
 
