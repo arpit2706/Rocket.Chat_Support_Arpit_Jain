@@ -1,4 +1,4 @@
-Request (List of all users) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/users.list?fields={%22name%22:1,%22username%22:1,%22emails%22:1,%22roles%22:1,%22status%22:1,%22avatarETag%22:1,%22active%22:1}&query={%22$or%22:[{%22emails.address%22:{%22$regex%22:%22%22,%22$options%22:%22i%22}},{%22username%22:{%22$regex%22:%22%22,%22$options%22:%22i%22}},{%22name%22:{%22$regex%22:%22%22,%22$options%22:%22i%22}}]}&sort={%22name%22:1,%22usernames%22:1}&count=25
+GET Request (List of all users) -> http://ec2-54-216-80-32.eu-west-1.compute.amazonaws.com:3000/api/v1/users.list?fields={%22name%22:1,%22username%22:1,%22emails%22:1,%22roles%22:1,%22status%22:1,%22avatarETag%22:1,%22active%22:1}&query={%22$or%22:[{%22emails.address%22:{%22$regex%22:%22%22,%22$options%22:%22i%22}},{%22username%22:{%22$regex%22:%22%22,%22$options%22:%22i%22}},{%22name%22:{%22$regex%22:%22%22,%22$options%22:%22i%22}}]}&sort={%22name%22:1,%22usernames%22:1}&count=25
 
 
 Response -> 
